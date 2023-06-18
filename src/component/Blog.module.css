@@ -1,0 +1,60 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: max-content;
+    background-color: rgba(13, 13, 13, 0.991);
+    gap: 20px;
+}
+
+.author {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.name{
+    font-weight: 500;
+    color: red;
+    
+
+
+}
+
+.title{
+   text-align: left;
+   font-size: 20px;
+   font-weight: 700;
+   margin-bottom: 15px;
+   color: white;
+  
+}
+
+.tagcontainer{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.date{
+    color: gray;
+}
+
+.time{
+    color: gray;
+}
+
+.description{
+    display: flex;
+    text-align: left;
+    color: gray;
+}
+
+.tag{
+    color: gray;
+    padding: 8px;
+    border: solid 1px gray;
+    border-radius: 15px
+    ;
+    font-weight: 700;
+}

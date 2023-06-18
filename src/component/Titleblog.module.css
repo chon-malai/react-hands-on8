@@ -1,0 +1,18 @@
+.titleblog{
+    display: flex;
+    justify-content: space-between
+    ;
+    color: white;
+    width: 900px;
+    margin: 0 auto;
+}
+.blogstyle{
+font-size: 20px;
+font-weight: 700;
+}
+
+.viewstyle{
+    font-weight: 400;
+    color: red;
+
+}
